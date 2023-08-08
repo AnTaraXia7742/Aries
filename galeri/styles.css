@@ -1,0 +1,49 @@
+body {
+  font-family: "Papyrus", fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Warna latar belakang gelap */
+  color: #ffffff; /* Warna teks putih */
+}
+
+header {
+  background-color: #333;
+  color: #13fbff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.gallery {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-caption {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  color: #000000; /* Warna teks keterangan putih */
+  text-shadow: 2px 2px 4px rgb(6, 255, 255); /* Efek shadow pada teks keterangan */
+}
